@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>La Shea Customer Survey Form</title>
+</head>
+<body id="body">
+    <div id="main">
+        <div id="title">
+            <h1 class="title">La Shea Customer Survey Form</h1>
+        </div>
+        <div id="description">
+            <h4 > <em>Thank you as you take time to help us inprove our services</em></h4>
+        </div>
+        
+        <div class="form">
+            <form action="" id="survey-form">
+                <div class="item">
+                    <label  for="name" id="name-label">Name</label><br>
+                    <input class="input" type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="item">
+                    <label for="email" id="email-label">Email</label><br>
+                    <input class="input" type="text" id="email" placeholder="Enter your email">
+                </div>
+                <div class="item">
+                    <label for="number" id="number-label">Age</label><br>
+                    <input class="input" type="number" id="number" min="16" max="60">
+                </div>
+                <div class="item">
+                    <label for="dropdown">Which of our products was recommended to you by our experts?</label><br>
+                     <select class="input" name="cars" id="dropdown">
+                         
+                        <option value="">-- Please Select-- </option>
+                        <option value="A">La Shea Skin Moisturizing Set </option>
+                        <option value="B">La Shea Skin Toning Set </option>
+                        <option value="C">La Shea Deep Cleansing and Clarifying Set </option>
+                        <option value="D">La Shea Hair and Body Beautifying Set </option>
+                    </select>
+                </div>
+                <div class="item">
+                    <p>How is your experience so far?:</p>
+                    <input  type="radio" id="fantastic" name="experience" value="2">
+                    <label for="fantastic">Fantastic!</label><br>
+                    <input type="radio" id="not-bad" name="experience" value="1">
+                    <label for="not-bad">Not Bad</label><br>
+                    <input type="radio" id="no-comment" name="experience" value="0">
+                    <label for="no-comment">No Commment</label><br> 
+                    <input type="radio" id="bad" name="experience" value="-1">
+                    <label for="negative">It didn't work for me</label><br>       
+                </div>
+                <div class="item">
+                    <p class="check"> Which areas would you suggest we improve?<span class="check-span">(Check all that apply)</span></p>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Customer services</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> Product Packaging </label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> Marketing </label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> Marketing</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> Product Formulation </label><br>
+                </div>
+                <div class="item">
+                    <label for="comment">Additional Comments</label> <br>
+                    <textarea class="input textfield" placeholder="Enter your comment here..." id="comment" name="comment" ></textarea>
+                </div>
+                <div class="item">
+                    <input  class="input" id="submit" type="submit" value="Submit">
+                </div>
+                
+            </form>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
