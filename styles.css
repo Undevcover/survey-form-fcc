@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+:root {
+    --first: #F9E4D4;
+    --second: #D67D3E;
+    --third: #9C0F48;
+    --fourth: #470D21;
+    }
+    
+ *{
+    padding: 0;
+     border: 0;
+ }
+#body{
+    
+    background-image: url(images/therapy.jpg);
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+#main{
+    background-color: var(--fourth);
+    opacity: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 10px 0px;
+}
+#title {
+    color: var(--first);
+    margin-bottom: 0px;
+
+}
+.title{
+    margin-bottom: 0px;
+    font-size: xx-large;
+    text-align: center;
+        
+}
+#description{
+    color: var(--first);
+ }
+ .form{
+    background-color: var(--third);
+     border-radius: 5px;
+     padding: 20px 40px 80px;
+     font-size: large;
+     font-weight: 700;
+     color: var(--first);
+     line-height: 30px ;
+     margin-top: 20px;
+
+}
+.item {
+    margin: 20px;
+}
+ 
+ .input{
+    width: 100%;  
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: medium;
+    margin: 10px 0px;
+ }
+ .input.textfield {
+     height: 120px;
+     font-family: inherit;
+     font-size: medium;
+     padding-top: 10px;
+ }
+
+ #submit {
+     background-color: var(--second);
+     opacity: 100%;
+     color: var(--first);
+     font-size: large;
+ }
